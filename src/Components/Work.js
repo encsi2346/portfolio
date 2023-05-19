@@ -1,30 +1,13 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { motion} from "framer-motion";
 import { fadeIn } from "../variants";
-import Img1 from '../Assets/mvm.jpg';
-import Img2 from '../Assets/autsoft.webp';
-import Img3 from '../Assets/piller.jpg';
-
-const experiences = [
-    {
-        profession: 'Junior Szoftverfejlesztő',
-        company: 'AutSoft Zrt.',
-        time: '2022. február - Jelenleg',
-        description: 'Webalkalmazások frontend fejlesztése során karbantartható, minőségi megoldások hatékony és a specifikációnak megfelelő fejlesztése.',
-        img: 'Img1',
-        link: ''
-    },
-    {
-        profession: 'Java Backend Fejlesztő Gyakornok',
-        company: 'Pillér Informatikai Kft.',
-        time: '2021. augusztus - 2022. február',
-        description: 'Webalkalmazások backend fejlesztése során kisebb fejlesztések, hibajavítások. Microservice architektúra megismerése, elsajátítása.',
-        img: 'Img2',
-        link: ''
-    },
-]
+import Img1 from '../Assets/autsoft.webp';
+import Img2 from '../Assets/piller.jpg';
+import Img3 from '../Assets/mvm.jpg';
 
 const Work = () => {
+    const [show, setShow] = useState(false);
+
     return (
         <section className='section' id='work'>
             <div className='container mx-auto'>
@@ -45,32 +28,7 @@ const Work = () => {
                                 hiszen úgy gondolom, hogy az elméletet a gyakorlatban lehet igazán elsajátítani.
                             </p>
                         </div>
-                        <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
-                            <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'/>
-                            <img
-                                className='group-hover:scale-125 transition-all duration-500'
-                                src={Img1}
-                                alt=''
-                            />
-                            <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                                <span className='text-gradient'>
-                                    Junior Szoftverfejlesztő
-                                </span>
-                            </div>
-                            <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-700 z-50'>
-                                <span className='text-3xl text-white'>
-                                    AutSoft Zrt.
-                                </span>
-                            </div>
-                        </div>
-                    </motion.div>
-                     <motion.div
-                        variants={fadeIn('left', 0.2)}
-                        initial='hidden'
-                        whileInView={'show'}
-                        viewport={{once: false, amount: 0.3}}
-                        className='flex-1 flex flex-col gap-y-10'>
-                        <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
+                        <div className='cursor-pointer group relative overflow-hidden border-2 border-white/50 rounded-xl' onClick={()=> window.open("https://pillerkft.hu/#piller", "_blank")}>
                             <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'/>
                             <img
                                 className='group-hover:scale-125 transition-all duration-500'
@@ -88,7 +46,32 @@ const Work = () => {
                                 </span>
                             </div>
                         </div>
-                        <div className='group relative overflow-hidden border-2 border-white/50 rounded-xl'>
+                    </motion.div>
+                     <motion.div
+                        variants={fadeIn('left', 0.2)}
+                        initial='hidden'
+                        whileInView={'show'}
+                        viewport={{once: false, amount: 0.3}}
+                        className='flex-1 flex flex-col gap-y-10'>
+                        <div className='cursor-pointer group relative overflow-hidden border-2 border-white/50 rounded-xl' onClick={()=> window.open("https://autsoft.net/", "_blank")}>
+                            <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'/>
+                            <img
+                                className='group-hover:scale-125 transition-all duration-500'
+                                src={Img1}
+                                alt=''
+                            />
+                            <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
+                                <span className='text-gradient'>
+                                    Junior Szoftverfejlesztő
+                                </span>
+                            </div>
+                            <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-700 z-50'>
+                                <span className='text-3xl text-white'>
+                                    AutSoft Zrt.
+                                </span>
+                            </div>
+                        </div>
+                        <div className='cursor-pointer group relative overflow-hidden border-2 border-white/50 rounded-xl' onClick={()=> window.open("https://informatika.mvm.hu/", "_blank")}>
                             <div className='group-hover:bg-black/70 w-full h-full absolute z-40 transition-all duration-300'/>
                             <img
                                 className='group-hover:scale-125 transition-all duration-500'

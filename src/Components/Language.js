@@ -6,7 +6,7 @@ import 'react-circular-progressbar/dist/styles.css';
 
 const Language = () => {
     return (
-        <section className='section' id='work'>
+        <section className='section' id='language'>
             <div className='container mx-auto'>
                 <div className='flex flex-col lg:flex-row gap-x-10'>
                     <motion.div

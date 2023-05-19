@@ -19,51 +19,57 @@ const Navbar = () => {
                     >
                         <BiHomeAlt/>
                     </Link>
-                    <Link to='about'
-                          activeClass='active'
-                          smooth={true}
-                          spy={true}
-                          className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'
+                    <Link
+                        to='about'
+                        activeClass='active'
+                        smooth={true}
+                        spy={true}
+                        className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'
                     >
                         <HiUser/>
                     </Link>
-                    <Link to='skills'
-                          activeClass='active'
-                          smooth={true}
-                          spy={true}
-                          className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'
+                    <Link
+                        to='skills'
+                        activeClass='active'
+                        smooth={true}
+                        spy={true}
+                        className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'
                     >
                         <BsLaptopFill/>
                     </Link>
-                    <Link to='language'
-                          activeClass='active'
-                          smooth={true}
-                          spy={true}
-                          className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'
+                    <Link
+                        to='language'
+                        activeClass='active'
+                        smooth={true}
+                        spy={true}
+                        className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'
                     >
                         <BsAirplane/>
                     </Link>
-                    <Link to='work'
-                          activeClass='active'
-                          smooth={true}
-                          spy={true}
-                          className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'
+                    <Link
+                        to='work'
+                        activeClass='active'
+                        smooth={true}
+                        spy={true}
+                        className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'
                     >
                         <BsBriefcaseFill/>
                     </Link>
-                    <Link to='education'
-                          activeClass='active'
-                          smooth={true}
-                          spy={true}
-                          className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'
+                    <Link
+                        to='education'
+                        activeClass='active'
+                        smooth={true}
+                        spy={true}
+                        className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'
                     >
                         <BsMortarboardFill/>
                     </Link>
-                    <Link to='contact'
-                          activeClass='active'
-                          smooth={true}
-                          spy={true}
-                          className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'
+                    <Link
+                        to='contact'
+                        activeClass='active'
+                        smooth={true}
+                        spy={true}
+                        className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'
                     >
                         <BsChatSquare/>
                     </Link>
