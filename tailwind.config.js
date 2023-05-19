@@ -24,7 +24,7 @@ module.exports = {
         secondary: '#3bace2'
       },
       backgroundImage: {
-        siteLight: "url('./Assets/about.png')",
+        siteLight: "url('./Assets/site-bg-light.jpg')",
         siteDark: "url('./Assets/site-bg.jpg')",
         about: "url('./Assets/undraw_business.svg')",
       },
