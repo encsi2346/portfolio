@@ -59,7 +59,7 @@ const Header = ({ onThemeClick }) => {
     };
 
     const changeLanguage = (code) => {
-        i18next.changeLanguage(code);
+        i18next.changeLanguage(code)
         cookies.set('i18next', code);
     };
 
@@ -78,13 +78,12 @@ const Header = ({ onThemeClick }) => {
                                     <button
                                         className="btn btn-link dropdown-toggle text-white p-4 w-12 h-12 flex justify-center items-center"
                                         type="button"
-                                        id="dropdownMenuButton1"
                                         data-bs-toggle="dropdown"
                                         aria-expanded="false"
                                     >
                                         <BsGlobe />
                                     </button>
-                                    <ul className="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <ul className="dropdown-menu">
                                     <li>
                                         <span className="dropdown-item-text">{t('language')}</span>
                                     </li>

@@ -1,13 +1,26 @@
 {
   "app_title": "Portfolio",
   "language": "Language",
-  "name": "Enikő Szabó",
+  "fullName": "Enikő Szabó",
+  "firstName": "Enikő",
+  "lastName": "Szabó",
   "profession": "Software Engineer",
   "description": "",
+  "message": "Message",
   "cv": "My CV",
   "contact_me": "Contact me",
   "about_me": "About me",
-  "about_description_one": "",
-  "about_description_two": ""
+  "about_description_first": "",
+  "about_description_second": "",
+  "bachelors": "Bachelor's",
+  "degree": "Degree",
+  "coffee": "Coffee",
+  "semester": "Semester",
+  "plenty": "Planty",
+  "learned": "Learned through",
+  "night": "Night",
+  "get_in_touch": "Get in touch",
+  "work_together": "Let's work together!",
+  "send_message": "Send message"
 
 }

@@ -60,7 +60,7 @@ const About = () => {
                             </div>
                             <div>
                                 <div className='text-[40px] font-tertiary text-gradient mb-2'>
-                                    Renegeteg
+                                    Rengeteg
                                 </div>
                                 <div className='font-primary text-sm tracking-[2px]'>
                                     Áttanult <br />

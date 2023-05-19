@@ -1,12 +1,26 @@
 {
     "app_title": "Portfólió",
     "language": "Nyelv",
-    "name": "Szabó Enikő",
+    "fullName": "Szabó Enikő",
+    "firstName": "Enikő",
+    "lastName": "Szabó",
     "profession": "Mérnökinformatikus",
     "description": "Ambíciózus mesterszakos mérnökinformatikus hallgató vagyok, aki szereti a kihívásokat.",
+    "message": "Üzenet",
     "cv": "Önéletrajzom",
     "contact_me": "Keress meg",
     "about_me": "Magamról",
-    "about_description_one": "A BME-VIK mérnökinformatikus mesterképzés első féléves hallgatója vagyok.",
-    "about_description_two": "Precíznek, kreatívnak, ambiciózusnak, jó problémamegoldónak és csapatjátékosnak tartom magam. Szeretek mindig újabb és nehezebb célokat kitűzni magam elé. Szabadidőmben fényképezéssel és játékfejlesztéssel foglalkozom."
+    "about_description_first": "A BME-VIK mérnökinformatikus mesterképzés első féléves hallgatója vagyok.",
+    "about_description_second": "Precíznek, kreatívnak, ambiciózusnak, jó problémamegoldónak és csapatjátékosnak tartom magam. Szeretek mindig újabb és nehezebb célokat kitűzni magam elé. Szabadidőmben fényképezéssel és játékfejlesztéssel foglalkozom.",
+    "bachelors": "Alapszakos",
+    "degree": "Diploma",
+    "coffee": "Kávé",
+    "semester": "Félév",
+    "plenty": "Rengeteg",
+    "learned": "Áttanult",
+    "night": "Éjszaka",
+    "get_in_touch": "Keress meg",
+    "work_together": "Dolgozzunk együtt!",
+    "send_message": "Üzenet küldése"
+
 }

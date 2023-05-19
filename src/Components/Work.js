@@ -6,7 +6,6 @@ import Img2 from '../Assets/piller.jpg';
 import Img3 from '../Assets/mvm.jpg';
 
 const Work = () => {
-    const [show, setShow] = useState(false);
 
     return (
         <section className='section' id='work'>
@@ -35,14 +34,14 @@ const Work = () => {
                                 src={Img2}
                                 alt=''
                             />
-                            <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                                <span className='text-gradient'>
-                                    Java Backend Fejlesztő Gyakornok
+                            <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-700 z-50'>
+                                <span className='text-xl text-white'>
+                                    Pillér Informatikai Kft.
                                 </span>
                             </div>
-                            <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-700 z-50'>
-                                <span className='text-3xl text-white'>
-                                    Pillér Informatikai Kft.
+                            <div className='absolute -bottom-full left-12 group-hover:bottom-20 transition-all duration-500 z-50'>
+                                <span className='text-2xl text-gradient'>
+                                    Java Backend Fejlesztő Gyakornok
                                 </span>
                             </div>
                         </div>
@@ -60,14 +59,14 @@ const Work = () => {
                                 src={Img1}
                                 alt=''
                             />
-                            <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                                <span className='text-gradient'>
-                                    Junior Szoftverfejlesztő
+                            <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-700 z-50'>
+                                <span className='text-xl text-white'>
+                                    AutSoft Zrt.
                                 </span>
                             </div>
-                            <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-700 z-50'>
-                                <span className='text-3xl text-white'>
-                                    AutSoft Zrt.
+                            <div className='absolute -bottom-full left-12 group-hover:bottom-20 transition-all duration-500 z-50'>
+                                <span className='text-2xl text-gradient'>
+                                    Junior Szoftverfejlesztő
                                 </span>
                             </div>
                         </div>
@@ -78,14 +77,14 @@ const Work = () => {
                                 src={Img3}
                                 alt=''
                             />
-                            <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-500 z-50'>
-                                <span className='text-gradient'>
-                                    IT Projekt Adminisztrátor
+                            <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-700 z-50'>
+                                <span className='text-xl text-white'>
+                                    MVMI Zrt.
                                 </span>
                             </div>
-                            <div className='absolute -bottom-full left-12 group-hover:bottom-24 transition-all duration-700 z-50'>
-                                <span className='text-3xl text-white'>
-                                    MVMI Zrt.
+                            <div className='absolute -bottom-full left-12 group-hover:bottom-20 transition-all duration-500 z-50'>
+                                <span className='text-2xl text-gradient'>
+                                    IT Projekt Adminisztrátor
                                 </span>
                             </div>
                         </div>
